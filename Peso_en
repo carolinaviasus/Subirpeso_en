@@ -1,0 +1,6 @@
+Peso = float(input('ingresa tu peso en la tierra  '))
+Peso_marte = round((Peso* 3.711) / 9.81, 2 )
+print('tu peso en marte es: ' + str (Peso_marte) + 'Kg')
+Peso_neptu = round (Peso* 11 / 9.81, 2) 
+print('tu peso en Neptuno es: ' + str (Peso_neptu) + 'Kg')
+print('Hola')
